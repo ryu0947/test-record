@@ -2,7 +2,7 @@ name: Firebase deploy
 
 on:
   push:
-  workflow_dispatch:
+    master
 
 jobs:
   build: # ビルド時の処理
